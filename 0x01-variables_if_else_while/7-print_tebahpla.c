@@ -1,16 +1,18 @@
 #include <studio.h>
 /**
- * main-prints the lowercase alphabetin reverse
- *
- * Return:0-success
- */
+* main-prints the lowercase alphabetin reverse,
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int i;
-	for(i=122;i>96;i--)
+	char ch;
+
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(i);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
 }
+
