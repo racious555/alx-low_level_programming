@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
 * main-prints the lowercase alphabetin reverse,
@@ -16,4 +16,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
