@@ -1,1 +1,1 @@
-My first library readme
+Static libraries
